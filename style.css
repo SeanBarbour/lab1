@@ -31,6 +31,13 @@ body {
  color: #AC2B37; 
  font-size: 12px;
 }
+footer{
+ font-family: Futura, Trebuchet MS;
+ font-weight: bold condensed;
+ color: #AC2B37; 
+ font-size: 16px;
+
+}
 #main_nav ul { padding: 0; margin: 0; }
 
 #main_nav li  {
@@ -50,4 +57,9 @@ body {
    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
 
    border: 1px solid #666; /* dark outline */
+}
+nav li:active {
+  background-color: #ccc;
+  background-image: none;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
 }
